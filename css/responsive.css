@@ -1,0 +1,24 @@
+@media (max-width:978px) {
+    .contact-btn {
+        display: none;
+    }
+    .home-u::after,  .service-u::after, .work-u::after, .about-u::after {
+        display: none;
+    }
+    .nav-item.active .nav-link::after {
+        width: 0;
+    }
+    .small-banner-icon {
+        display: none;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .small-banner-btn {
+        display: block !important;
+    }
+    .card-right {
+        padding-top: 0px;
+    }
+}
