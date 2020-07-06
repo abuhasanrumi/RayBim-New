@@ -15,6 +15,10 @@
 /* ================
 Basic CSS Settings
 ================== */
+
+*,*:focus{
+    outline:none !important;
+}
 .bg-grey {
     background: #F7F7F7;
 }
@@ -162,8 +166,11 @@ a.contact-btn {
     box-shadow: inset 0px 0px 0px 0px #0C5BAA;
 }
 a.contact-btn:hover {
-    color: #0C5BAA;
+    color: #fff;
     box-shadow: inset 160px 0px 0px 0px #0C5BAA;
+}
+a.contact-btn:focus {
+    color: #fff;
 }
 
 a.contact-btn i {
@@ -200,7 +207,7 @@ a.contact-btn i {
     display: inline-block;
     position: absolute;
     top: 40px;
-    left: 85px;
+    left: 88px;
     background: linear-gradient(to right, #02A9F7 0%, #0C5BAA 100%);
     transition: .3s ease-in-out;
 }
@@ -215,14 +222,14 @@ a.contact-btn i {
     display: inline-block;
     position: absolute;
     top: 40px;
-    left: 185px;
+    left: 192px;
     background: linear-gradient(to right, #02A9F7 0%, #0C5BAA 100%);
     transition: .3s ease-in-out;
 }
 
 
 .service-u:hover::after {
-    width: 100px;
+    width: 103px;
 }
 .work-u::after {
     content: "";
@@ -231,7 +238,7 @@ a.contact-btn i {
     display: inline-block;
     position: absolute;
     top: 40px;
-    left: 312px;
+    left: 326px;
     background: linear-gradient(to right, #02A9F7 0%, #0C5BAA 100%);
     transition: .3s ease-in-out;
 }
@@ -240,8 +247,17 @@ a.contact-btn i {
     width: 78px;
 }
 
-.nav-item.active .nav-link::after {
+.nav-item.home-active .nav-link::after {
     width: 48px;
+}
+.nav-item.about-active .nav-link::after {
+    width: 75px;
+}
+.nav-item.service-active .nav-link::after {
+    width: 103px;
+}
+.nav-item.work-active .nav-link::after {
+    width: 78px;
 }
 
 /* =======================
@@ -475,7 +491,7 @@ Service Section Starts Here
     text-transform: uppercase;
     letter-spacing: 1.5px;
     color: #262626;
-    transition: width .5s ease-in-out;
+    transition: .5s ease-in-out;
 }
 a.regular-btn .bi.bi-arrow-right{
     transition: width .5s ease-in-out;
@@ -559,13 +575,13 @@ Portfolio Section Starts Here
     line-height: 35px;
 }
 .portfolio-card {
-    padding: 20px 0;
-}
-.card-right {
-    padding-top: 90px;
+    padding: 10px 0;
 }
 .card-img-top img {
     border-radius: 5px;
+}
+.card-2, .card-4, .card-6 {
+    padding-top: 70px;
 }
 /* =======================
 Portfolio Section Endss Here
@@ -891,6 +907,10 @@ footer.section-padding {
 
 .footer-address, .page-discover, .social-icons {
     padding-bottom: 35px;
+}
+footer.section-padding {
+    padding: 50px 0;
+    box-shadow: inset 0px 0px 0px 2px #67809F;
 }
 /* =======================
 Footer Section Ends Here
