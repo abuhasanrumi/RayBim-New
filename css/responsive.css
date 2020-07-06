@@ -1,17 +1,36 @@
-@media (max-width:978px) {
-    .contact-btn {
-        display: none;
-    }
+@media (max-width:991px) {
     .home-u::after,  .service-u::after, .work-u::after, .about-u::after {
-        display: none;
+        width: 0;
+    }
+    .home-u:hover::after,  .service-u:hover::after, .work-u:hover::after, .about-u:hover::after {
+        width: 0;
     }
     .nav-item.active .nav-link::after {
-        width: 0;
+        width: 0 !important;
+    }
+    .nav-item.active .nav-link:hover::after {
+        width: 0 !important;
     }
     .small-banner-icon {
         display: none;
     }
-    
+    .hero-image {
+        display: none;
+    }
+    a.contact-btn {
+        padding: 0;
+        border-radius: 0;
+        border: none;
+        padding-right: 0;
+        font-size: inherit;
+        color: #262626;
+        margin-left: 0;
+        box-shadow: 0;
+    }
+    a.contact-btn:hover {
+        color: #262626;
+        box-shadow: inset 0px 0px 0px 0px #0C5BAA;
+    }
 }
 
 @media (max-width:768px) {
@@ -22,3 +41,11 @@
         padding-top: 0px;
     }
 }
+
+
+@media (max-width:576px) {
+    .domain-form span p {
+        display: block !important;
+    }
+}
+

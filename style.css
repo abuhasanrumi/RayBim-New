@@ -15,7 +15,9 @@
 /* ================
 Basic CSS Settings
 ================== */
-
+.bg-grey {
+    background: #F7F7F7;
+}
 body {
     font-family: 'Roboto Slab', serif;
     margin: 0;
@@ -23,7 +25,7 @@ body {
     font-weight: 400;
     overflow-x: hidden;
     font-size: 15px;
-    background-color: #fff;
+    background-color: #F7F7F7;
     line-height: 25px;
     color: #262626;
 }
@@ -136,7 +138,9 @@ nav ul li a:hover {
 
 .navbar-toggler-icon i {
     align-self: center;
-    padding-left: 30px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 0px 2px grey;
+    padding: 5px 10px;
 }
 .navbar-toggler-icon {
     color: #262626;
@@ -146,26 +150,24 @@ nav ul li a:hover {
 .navbar {
     justify-content: space-between;
 }
-
 a.contact-btn {
     padding: 10px 20px !important;
     border-radius: 5px;
     border: 2px solid #0C5BAA;
     padding-right: 10px !important;
     font-size: 16px;
-    background: #0C5BAA;
-    color: #fff;
-    transition: .3s;
+    color: #262626;
+    transition: .3s ease-in-out;
     margin-left: 15px;
+    box-shadow: inset 0px 0px 0px 0px #0C5BAA;
 }
 a.contact-btn:hover {
-    background: transparent;
-    border: 2px solid #0C5BAA;
     color: #0C5BAA;
+    box-shadow: inset 160px 0px 0px 0px #0C5BAA;
 }
 
 a.contact-btn i {
-    padding: 0 10px;
+    padding-left: 10px;
 }
 
 .nav-item {
@@ -253,7 +255,7 @@ Header Section Starts Here
 }
 .hero-title h4 {
     padding: 30px 0;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 30px;
     font-weight: 400;
 }
@@ -452,9 +454,10 @@ Service Section Starts Here
     transition: .3s ease-in-out;
     font-size: 16px;
     font-weight: 600;
+    padding-right: 30px;
 }
 .service-text a:hover {
-    box-shadow: inset 135px 0px 0px 0px #0C5BAA;
+    box-shadow: inset 150px 0px 0px 0px #0C5BAA;
     color: #fff;
 }
 .service-text a i {
@@ -509,7 +512,7 @@ Small Banner Starts Here
     font-size: 18px;
 }
 .small-banner-btn {
-    padding: 0px;
+    padding: 20px 0;
 }
 .small-banner-icon {
     padding: 10px 20px;
@@ -559,7 +562,7 @@ Portfolio Section Starts Here
     padding: 20px 0;
 }
 .card-right {
-    padding-top: 70px;
+    padding-top: 90px;
 }
 .card-img-top img {
     border-radius: 5px;
@@ -571,12 +574,250 @@ Portfolio Section Endss Here
 
 
 
+
+
+/* =======================
+Clients Section Starts Here
+========================== */
+
+.client-sec img {
+    width: 100%;
+    padding: 30px 15px;
+    opacity: .8;
+    transition: transform .5s ease-in-out;
+    cursor: pointer;
+}
+
+.client-sec img:hover {
+    opacity: 1;
+    transform: scale(1.05) translateY(5px);
+}
+
+
+/* =======================
+Clients Section Ends Here
+========================== */
+
+
+
+
+
+
+/* =======================
+Domain Search Starts Here
+========================== */
+
+.domain-search {
+    background: #0C5BAA !important;
+    color: #fff;
+}
+
+.domain-title p {
+    padding: 10px 0;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.domain-price {
+    font-size: 16px;
+    font-weight: 600;
+}
+/* form input[type="text"] {
+    height: 50px !important;
+    padding: 0 15px;
+    width: 55.555555%;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+form button.search-btn {
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 110px;
+    margin-left: -5px;
+    display: inline-block;
+} */
+fieldset {
+    padding: 0.5em;
+    border-radius: 1em;
+    font-family: sans-serif;
+    border: none;
+    background: transparent;
+}
+
+input, button {
+    font-size: inherit;
+    padding: 0.3em 0.4em;
+    margin: 0.1em 0.2em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    height: 60px;
+    margin: 10px 0;
+}
+
+input {
+    margin-right: 0;
+    border-radius: 0.6em 0 0 0.6em;
+    width: 55.55555%;
+    font-size: 18px;
+    padding: 0 15px;
+}
+input:focus {
+    outline: none;
+}
+button {
+    margin-left: 0;
+    border-radius: 0 0.6em 0.6em 0;
+    background-color: transparent;
+}
+.search-btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    width: 120px;
+    margin-left: -5px;
+    font-family: "Open Sans";
+}
+
+.register-btn {
+    color: #0E5CAB;
+    display: inline-block;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    transition: 1s ease-in-out;
+    margin: 10px 0;
+    box-shadow: inset 0px 0px 0px 0px #0883D2;
+}
+
+.register-btn:hover {
+    color: #fff;
+    border: 2px solid #fff;
+    box-shadow: inset 215px 0px 0px 0px #0C5BAA;
+}
+.transfer-btn {
+    color: #fff;
+    display: inline-block;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    transition: 1s ease-in-out;
+    
+    margin: 10px 0;
+    box-shadow: inset 0px 0px 0px 0px #0883D2;
+}
+.transfer-btn:hover {
+    color: #0E5CAB;
+    box-shadow: inset 215px 0px 0px 0px #fff;
+    border: 2px solid #fff;
+}
+
+.domain-form span p {
+    margin: 0;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+/* =======================
+Domain Search Ends Here
+========================== */
+
+
+
+
+
+
+
+
+/* =======================
+Contact Section Starts Here
+========================== */
+
+.button {
+    display: inline-flex;
+    height: 50px;
+    width: 180px;
+    border: 2px solid #0C5BAA;
+    margin-top: 20px;
+    color: #0C5BAA;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-weight: 600;
+}
+  
+  a {
+    color: #0C5BAA;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  
+  
+  #button {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #button a {
+    position: relative;
+    transition: all .45s ease-Out;
+  }
+  
+  #translate {
+    transform: rotate(50deg);
+    width: 104%;
+    height: 257%;
+    left: -200px;
+    top: -30px;
+    position: absolute;
+    transition: all .3s ease-Out;
+    background: linear-gradient(45deg, #02A9F7 0%, #0C5BAA 35%);
+}
+  
+  #button:hover #translate {
+    left: 0;
+  }
+  
+  #button:hover a {
+    color: #fff;
+  }
+  
+  
+
+/* =======================
+Contact Section Ends Here
+========================== */
+
+
+
+
+
 /* =======================
 Footer Section Starts Here
 ========================== */
 footer {
-    background: #0C5BAA;
     color: #fff;
+    background: linear-gradient(45deg, #02A9F7 -10%, #0C5BAA 20%);
 }
 footer.section-padding {
     padding: 50px 0;

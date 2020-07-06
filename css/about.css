@@ -1,0 +1,17 @@
+.about-section-padding {
+    padding: 120px 0;
+}
+
+.banner-heading {
+    font-weight: 800;
+    font-size: 70px;
+    padding-bottom: 10px;
+}
+
+.banner-text {
+    font-size: 18px;
+    color: #6E6E6F;
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+    font-weight: 300;
+}
