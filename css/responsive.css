@@ -8,8 +8,17 @@
     .nav-item.active .nav-link::after {
         width: 0 !important;
     }
-    .nav-item.active .nav-link:hover::after {
-        width: 0 !important;
+    .nav-item.home-active .nav-link::after {
+        width: 0;
+    }
+    .nav-item.about-active .nav-link::after {
+        width: 0;
+    }
+    .nav-item.service-active .nav-link::after {
+        width: 0;
+    }
+    .nav-item.work-active .nav-link::after {
+        width: 0;
     }
     .small-banner-icon {
         display: none;
