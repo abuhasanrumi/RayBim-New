@@ -48,7 +48,7 @@
         display: block !important;
     }
     .hero-title h2 {
-        font-size: 50px;
+        font-size: 50px !important;
         line-height: 62px;
     }
 }
