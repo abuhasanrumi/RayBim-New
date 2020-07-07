@@ -1,5 +1,20 @@
+p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.section-title p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #fff;
+}
+
 .about-section-padding {
     padding: 120px 0;
+    background: #262626 !important;
+    color: #fff !important;
 }
 
 .banner-heading {
@@ -9,9 +24,89 @@
 }
 
 .banner-text {
-    font-size: 18px;
-    color: #6E6E6F;
+    font-size: 24px;
+    color: #262626;
     font-family: "Open Sans", sans-serif;
-    line-height: 30px;
+    line-height: 40px;
     font-weight: 300;
+}
+.banner-heading {
+    color: #fff;
+    background: none;
+    -webkit-text-fill-color: inherit;
+}
+.top-banner-img {
+    border-radius: 20px;
+    display: block;
+    margin-top: -90px;
+    margin-bottom: 50px;
+    border: 8px solid #fff;
+}
+
+.team-img {
+    padding: 50px 0;
+    border-radius: 20px;
+}
+
+.regular-btn {
+    color: #0C61B5;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.people-sec {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.people-sec img {
+    padding: 20px 0;
+}
+
+.people-sec h3 {
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.single-reason-card img {
+    width: 100px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.single-reason-card p {
+    font-size: 16px;
+}
+
+.single-reason-card {
+    padding: 20px;
+    margin: 10px;
+}
+
+.about-contact {
+}
+
+.about-contact h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.about-footer-text {
+    padding: 50px 85px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.title-card h3 {
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border: 2px solid #0C5BAA;
 }
