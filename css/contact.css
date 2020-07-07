@@ -50,9 +50,7 @@ p.form-label {
 input:required {
     box-shadow:none;
 }
-input:invalid {
-    box-shadow: 0 0 1px #0E5CAA;
-}
+
 
 .underline {
     height: 2px;
