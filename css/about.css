@@ -10,10 +10,13 @@ p {
     line-height: 35px;
     color: #fff;
 }
-
+.small-header-wrap p {
+    font-size: 12px;
+    line-height: 25px;
+}
 .about-section-padding {
     padding: 120px 0;
-    background: #262626 !important;
+    background: #0C5BAA !important;
     color: #fff !important;
 }
 

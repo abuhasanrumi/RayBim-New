@@ -1,0 +1,119 @@
+.banner-heading {
+    font-weight: 800;
+}
+
+.section-title {
+    padding: 70px 0;
+}
+p.banner-text {
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+.service-text {
+    padding-bottom: 0px;
+}
+.service-text h3 {
+    font-weight: 700;
+}
+.service-number p {
+    font-size: 70px;
+    padding: 20px 0;
+}
+.service-list {
+    padding: 10px 0px;
+}
+.service-list ul li {
+    padding: 2px 0;
+    position: relative;
+    color: lightgrey;
+}
+.service-list ul li::before {
+    content: "";
+    background: lightgrey;
+    height: 2px;
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    left: -25px;
+}
+
+.capability-1 .service-list ul li, .capability-3 .service-list ul li, .capability-5 .service-list ul li {
+    color: grey;
+
+}
+.capability-1 .service-list ul li::before, .capability-3 .service-list ul li::before, .capability-5 .service-list ul li::before {
+    color: grey;
+
+}
+.capability-img img {
+    cursor: pointer;
+}
+
+.service-btn {
+    padding: 20px 0;
+}
+
+body > section.capabilities-area > div > div.single-capability > div > div > div.col-lg-6.capability-right > div > a > img,body > section.capabilities-area > div > div.single-capability > div > div > div.col-12.capability-right > div > a > img  {
+    transition: .5s ease-in-out;
+}
+body > section.capabilities-area > div > div.single-capability > div > div > div.col-lg-6.capability-right > div, body > section.capabilities-area > div > div.single-capability > div > div > div.col-12.capability-right > div {
+    overflow: hidden;
+}
+
+
+body > section.capabilities-area > div > div.single-capability> div > div > div.col-lg-6.capability-right > div > a > img:hover, body > section.capabilities-area > div > div.single-capability > div > div > div.col-12.capability-right > div > a > img:hover {
+    transform: scale(1.1);
+}
+
+.capability-2, .capability-4 {
+    background: #111228;
+    color: #ffffff;
+}
+
+.capability-2 .regular-btn, .capability-4 .regular-btn {
+    color: #ffffff;
+}
+
+.capability-img a,  .responsive-img a {
+    position: relative;
+    display: block;
+}
+
+.capability-img span, .responsive-img span {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    padding: 0 30px;
+}
+
+.capability-img span h4, .responsive-img span h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+    padding: 0;
+    margin: 0;
+}
+
+.capability-img span p, .responsive-img span p {
+    font-weight: 600;
+    padding: 5px 0;
+    margin: 0;
+    color: #262626;
+}
+
+.service-list ul {
+    margin: 0 25px;
+}
+
+.small-banner-area {
+    box-shadow: none;
+    background: #F7F7F7 !important;
+    color: #262626;
+    margin: 70px 0;
+}
+
+.small-banner-btn a {
+    color: #262626;
+}

@@ -1,4 +1,18 @@
-@media (max-width:991px) {
+@media only screen and (min-width:1200px) {
+    .responsive-img {
+        display: none !important;
+    }
+}
+@media only screen and (max-width:1199px) {
+    .capability-img {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (max-width:991px) {
     .home-u::after,  .service-u::after, .work-u::after, .about-u::after {
         width: 0;
     }
@@ -42,7 +56,7 @@
     }
 }
 
-@media (max-width:768px) {
+@media only screen and (max-width:768px) {
     .small-banner-btn {
         display: block !important;
     }
@@ -52,7 +66,7 @@
 }
 
 
-@media (max-width:576px) {
+@media only screen and (max-width:576px) {
     .domain-form span p {
         display: block !important;
     }
@@ -60,5 +74,15 @@
         font-size: 50px !important;
         line-height: 62px;
     }
+    .banner-heading {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    p.banner-text {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .small-banner-btn.text-center.text-uppercase {
+        margin: 0 auto;
+    }
 }
-
