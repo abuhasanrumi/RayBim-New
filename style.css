@@ -122,6 +122,33 @@ b, strong {
 Header Section Starts Here
 ========================== */
 
+.small-header {
+    background: linear-gradient(45deg, #02A9F7 0%, #0C5BAA 35%);
+    color: #ffffff;
+}
+
+.small-header-wrap {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.small-header-wrap p {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.small-header-wrap i {
+    padding: 0 5px;
+    color: #fff;
+}
+.small-header-wrap a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
 .logo img {
     width: 180px;
     height: auto;
@@ -229,7 +256,7 @@ a.contact-btn i {
 
 
 .service-u:hover::after {
-    width: 103px;
+    width: 133px;
 }
 .work-u::after {
     content: "";
@@ -238,7 +265,7 @@ a.contact-btn i {
     display: inline-block;
     position: absolute;
     top: 40px;
-    left: 326px;
+    left: 355px;
     background: linear-gradient(to right, #02A9F7 0%, #0C5BAA 100%);
     transition: .3s ease-in-out;
 }
@@ -539,12 +566,7 @@ Small Banner Starts Here
     display: inline-block;
     padding: 20px 0;
 }
-.small-banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
 /* =======================
 Small Banner Ends Here
 ========================== */
