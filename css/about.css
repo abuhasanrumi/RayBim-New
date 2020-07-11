@@ -1,10 +1,14 @@
-p {
+* {
+    scroll-behavior: smooth;
+}
+
+.normal-text {
     font-size: 22px;
     font-weight: 400;
     line-height: 35px;
 }
 
-.section-title p {
+.about-section-title p {
     font-size: 22px;
     font-weight: 400;
     line-height: 35px;
@@ -20,23 +24,21 @@ p {
     color: #fff !important;
 }
 
-.banner-heading {
+.about-banner-heading {
     font-weight: 800;
     font-size: 70px;
     padding-bottom: 10px;
+    color: #fff;
+    background: none;
+    -webkit-text-fill-color: inherit;
 }
 
-.banner-text {
+.about-banner-text {
     font-size: 24px;
     color: #262626;
     font-family: "Open Sans", sans-serif;
     line-height: 40px;
     font-weight: 300;
-}
-.banner-heading {
-    color: #fff;
-    background: none;
-    -webkit-text-fill-color: inherit;
 }
 .top-banner-img {
     border-radius: 20px;
@@ -70,7 +72,7 @@ p {
 .people-sec h3 {
     font-size: 35px;
     line-height: 35px;
-    font-weight: 600;
+    font-weight: 700;
     padding: 10px 0;
 }
 
@@ -112,4 +114,8 @@ p {
     font-weight: 600;
     padding: 20px 30px;
     border: 2px solid #0C5BAA;
+}
+
+p.banner-text {
+    font-size: 16px;
 }

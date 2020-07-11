@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 .banner-title {
     margin: 0;
     padding: 0;
@@ -12,33 +16,37 @@
     font-size: 45px;
     line-height: 55px;
 }
-.hform {
+/* .hform {
     border-radius: 10px;
     padding: 30px;
     color: #fff;
     background: linear-gradient(45deg, #000 0%, #0C5BAA 130%);
+} */
+.hform {
+    padding: 30px;
+    color: #262626;
 }
-
 input {
-    border-radius: 0;
+    border-radius: 10px;
     width: 100%;
     font-size: 18px;
     padding: 0 15px;
-    background: transparent;
+    background: #E4E4E4;
     border: none;
-    color: #fff;
+    color: #262626;
     margin: 0;
     height: 50px;
+    border-bottom: none;
 }
 textarea {
     padding: 10px;
-    border-radius: 0;
+    border-radius: 10px;
     border: none;
     width: 100%;
     margin: 10px 0;
     font-size: 18px;
-    background: transparent;
-    color: #fff;
+    background: #E4E4E4;
+    color: #262626;
 }
 p.form-label {
     font-size: 18px;
@@ -65,15 +73,14 @@ input:required {
 }
 
 #button {
-    border: 3px solid #fff;
-    color: #fff;
+    border: 3px solid #262626;
+    color: #262626;
     transition: .5s ease-in-out;
     background: transparent;
 }
-
 #button:hover {
-    background: #fff;
-    color: #262626;
+    background: #262626;
+    color: #fff;
 }
 
 .contact-office {

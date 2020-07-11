@@ -63,9 +63,12 @@
     .card-2, .card-4, .card-6 {
         padding-top: 0px;
     }
+    h3.horizontal-title {
+        font-size: 22px;
+    }
+    
+    
 }
-
-
 @media only screen and (max-width:576px) {
     .domain-form span p {
         display: block !important;
@@ -84,5 +87,14 @@
     }
     .small-banner-btn.text-center.text-uppercase {
         margin: 0 auto;
+    }
+    .domain-title h3 {
+        font-size: 24px;
+    }
+    .portfolio-text h2 {
+        font-size: 36px;
+    }
+    .portfolio-text h4 {
+        font-size: 20px;
     }
 }

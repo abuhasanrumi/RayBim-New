@@ -1,0 +1,67 @@
+* {
+    scroll-behavior: smooth;
+}
+
+
+section.portfolio-header-area {
+    padding: 50px 0;
+    background: url("../img/work-cover.jpg");
+    color: #fff;
+}
+
+.portfolio-text h2 {
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 85px;
+}
+.portfolio-text h4 {
+    font-size: 24px;
+    font-weight: 200;
+    font-family: 'Muli', sans-serif;
+}
+
+.portfolio-text a {
+    text-decoration: none;
+    color: #fff;
+}
+.portfolio-text a i {
+    padding-right: 15px;
+}
+
+.portfolio-wrap a {
+    text-decoration: none;
+}
+h3.horizontal-title {
+    color: #262626;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+}
+h6.horizontal-text, h6.vertical-text {
+    font-size: 15px;
+    color: #A2A2A2;
+    padding: 10px 0;
+}
+
+h3.vertical-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #262626;
+    line-height: 40px;
+}
+
+.port-img img {
+    transition: .3s ease-in-out;
+}
+.port-img img:hover {
+    transform: scale(1.2);
+}
+.port-img  {
+    overflow: hidden;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+.port-img:hover  {
+    transform: scale(.95);
+    box-shadow: 5px 5px 10px 5px #C2C2C2;
+}
