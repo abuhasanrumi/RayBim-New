@@ -23,9 +23,13 @@ section.portfolio-header-area {
 .portfolio-text a {
     text-decoration: none;
     color: #fff;
+    transition: .3s ease-in-out;
 }
 .portfolio-text a i {
     padding-right: 15px;
+}
+.portfolio-text a:hover {
+    color: #03A3F1;
 }
 
 .portfolio-wrap a {
